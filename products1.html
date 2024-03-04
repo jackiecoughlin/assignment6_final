@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>JSON</title>
+</head>
+
+<style>
+    #jstext {list-style-type:disc; list-style-position: inside;
+    display:list-item; font-family: 'Courier New', Courier, monospace; margin: 0px;}
+    
+    #jstext2{content: "Description: "; font-size: 16px; font-family: 'Courier New', Courier, monospace; font-weight: bold;}
+    
+    #titleName {
+        display:inline-block; font-size: 25px; text-transform: capitalize; font-style: italic;
+        color: #20d4da; width: 160px; font-family: 'Courier New', Courier, monospace; font-weight: bold; margin: 3px; 
+    }
+    br{
+        margin: 0px;
+        }
+
+
+</style>
+
+
+<body>
+    <script> 
+        var gear = {
+            "name" : {
+               "name1": "leggings", 
+               "name2": "sports bra", 
+               "name3": "shorts", 
+               "name4": "sweatband", 
+               "name5": "sneakers", 
+               "name6": "dumbbells", 
+               "name7": "resistance bands",
+               "name8": "creatine",
+               "name9": "protein powder",
+               "name10": "caffeine"
+                     }, 
+
+            "description" : {
+                "desc1": "black full length leggings",
+                "desc2": "purple medium support", 
+                "desc3": "blue 5 inch running shorts", 
+                "desc4": "striped head sweatband", 
+                "desc5": "green running sneakers", 
+                "desc6": "20 pound free weight dumbbells", 
+                "desc7": "10 pounds yellow resistance band", 
+                "desc8": "1000mg creatine pill", 
+                "desc9": "cookies and cream, 25 grams protein per serving", 
+                "desc10": "powder, 150mg caffeine per serving"
+                            },
+            
+            "price": {
+                "price1": "$65",
+                "price2": "$30",
+                "price3": "$40", 
+                "price4": "$15", 
+                "price5": "$70", 
+                "price6": "$35", 
+                "price7": "$10", 
+                "price8": "$20", 
+                "price9": "$45", 
+                "price10": "$12"
+                    },
+
+            "category": {
+                "cat1": "clothing",
+                "cat2": "clothing", 
+                "cat3": "clothing, running",
+                "cat4": "clothing, running", 
+                "cat5": "running", 
+                "cat6": "lifting", 
+                "cat7": "lifting", 
+                "cat8": "lifting", 
+                "cat9": "lifting", 
+                "cat10": "lifting"
+                        }
+                    }
+//ITEM 1
+document.write('<p id="titleName">'+ gear.name.name1 + '</p>')
+document.write('<p id="jstext">' + "Description: " + gear.description.desc1 + '</p>')
+document.write('<p id="jstext">' + "Price: " + gear.price.price1 + '</p>')
+document.write('<p id="jstext">' + "Category: " + gear.category.cat1 + '</p>' + "<br>")
+
+//ITEM2
+document.write('<p id="titleName">'+ gear.name.name2 + '</p>')
+document.write('<p id="jstext">' + "Description: " + gear.description.desc2 + '</p>')
+document.write('<p id="jstext">' + "Price: " + gear.price.price2 + '</p>')
+document.write('<p id="jstext">' + "Category: " + gear.category.cat2 + '</p>' + "<br>")
+
+//ITEM3
+document.write('<p id="titleName">'+ gear.name.name3 + '</p>')
+document.write('<p id="jstext">' + "Description: " + gear.description.desc3 + '</p>')
+document.write('<p id="jstext">' + "Price: " + gear.price.price3 + '</p>')
+document.write('<p id="jstext">' + "Category: " + gear.category.cat3 + '</p>' + "<br>")
+
+//ITEM4
+document.write('<p id="titleName">'+ gear.name.name4 + '</p>')
+document.write('<p id="jstext">' + "Description: " + gear.description.desc4 + '</p>')
+document.write('<p id="jstext">' + "Price: " + gear.price.price4 + '</p>')
+document.write('<p id="jstext">' + "Category: " + gear.category.cat4 + '</p>' + "<br>")
+
+//ITEM5
+document.write('<p id="titleName">'+ gear.name.name5 + '</p>')
+document.write('<p id="jstext">' + "Description: " + gear.description.desc5 + '</p>')
+document.write('<p id="jstext">' + "Price: " + gear.price.price5 + '</p>')
+document.write('<p id="jstext">' + "Category: " + gear.category.cat5 + '</p>' + "<br>")
+
+//ITEM6
+document.write('<p id="titleName">'+ gear.name.name6 + '</p>')
+document.write('<p id="jstext">' + "Description: " + gear.description.desc6 + '</p>')
+document.write('<p id="jstext">' + "Price: " + gear.price.price6 + '</p>')
+document.write('<p id="jstext">' + "Category: " + gear.category.cat6 + '</p>' + "<br>")
+
+//ITEM7
+document.write('<p id="titleName">'+ gear.name.name7 + '</p>')
+document.write('<p id="jstext">' + "Description: " + gear.description.desc7 + '</p>')
+document.write('<p id="jstext">' + "Price: " + gear.price.price7 + '</p>')
+document.write('<p id="jstext">' + "Category: " + gear.category.cat7 + '</p>' + "<br>")
+
+//ITEM8
+document.write('<p id="titleName">'+ gear.name.name8 + '</p>')
+document.write('<p id="jstext">' + "Description: " + gear.description.desc8 + '</p>')
+document.write('<p id="jstext">' + "Price: " + gear.price.price8 + '</p>')
+document.write('<p id="jstext">' + "Category: " + gear.category.cat8 + '</p>' + "<br>")
+
+//ITEM9
+document.write('<p id="titleName">'+ gear.name.name9 + '</p>')
+document.write('<p id="jstext">' + "Description: " + gear.description.desc9 + '</p>')
+document.write('<p id="jstext">' + "Price: " + gear.price.price9 + '</p>')
+document.write('<p id="jstext">' + "Category: " + gear.category.cat9 + '</p>' + "<br>")
+
+//ITEM10
+document.write('<p id="titleName">'+ gear.name.name10 + '</p>')
+document.write('<p id="jstext">' + "Description: " + gear.description.desc10 + '</p>')
+document.write('<p id="jstext">' + "Price: " + gear.price.price10 + '</p>')
+document.write('<p id="jstext">' + "Category: " + gear.category.cat10 + '</p>' + "<br>")
+
+
+    </script>
+
+</body>
+
+
+
+</html>
